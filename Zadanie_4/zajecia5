@@ -1,0 +1,12 @@
+1. ramka http
+minimalna dlugosc - 144 bajtow
+maksymalna dlugosc - x
+
+2. ramka CoAP
+minimalna dlugosc - 6 bajtow - na jedna ramke - pusta wiadomosc
+maksymalna dlugosc - 1024 bajty - na jedna ramke
+
+4. oplacalnosc CoAP 
+przeslanie pelnej wiadomosci - 1024 bajty
+144/6 = 24 ramek
+24*1024 + 1 = 24576 bajtów - przestaje sie oplacac
